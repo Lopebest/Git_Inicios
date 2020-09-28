@@ -1,0 +1,14 @@
+
+En el directorio del proyecto (arrastrar carpeta en VisualStudio Code):
+git ini
+git status  ---->    Los archivos dentro del directorio aparecen en rojo
+git add .   ---->     Añade los archivos del directorio (se pueden añadir de uno en uno)
+git commit -m "first commit"    ---->   Escribimos un mensaje definitorio
+git remote add origin https://github.com/Lopebest/0011_prueba.git   ---->   Añadimos un origen
+git push -u origin master   ---->   Subimos los archivos al origen
+
+
+CLONAR REPOSITORIO (Posicionarnos en el directorio anterior al que queremos clonar):
+1.- Copiamos el código HTTP del repositorio a clonar.
+2.- En PowerShell ejecutamos: git clone _______ (El espacio en blanco ha de ser sustituido por el código copiado)
+
